@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/biblio.dart';
+import 'package:myapp/grid_cell.dart';
 import 'package:myapp/home_screen.dart';
 import 'package:myapp/inscription.dart';
+import 'package:myapp/login.dart';
 import 'package:myapp/product_detail.dart';
 
 void main() {
@@ -18,9 +21,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      //home: const HomeScreen(),
+      //home: HomeScreen(),
       //home: PDetail(),
-      home: Inscription(),
+     // home: Inscription(),
+     //home: const Login(),
+     home:const Biblio()
     );
   }
 }
